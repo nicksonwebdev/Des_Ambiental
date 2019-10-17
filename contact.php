@@ -14,7 +14,7 @@ $email    = $_POST['email'];
 $comments = $_POST['comments'];
 
 if(trim($name) == '') {
-	echo '<div class="error_message">Por favor insira seu nome.</div>';
+	echo '<div class="error_message">Por favor, insira seu nome:</div>';
 	exit();
 } else if(trim($email) == '') {
 	echo '<div class="error_message">Por favor, insira o seu e-mail</div>';
